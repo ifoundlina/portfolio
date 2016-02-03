@@ -137,7 +137,7 @@ h5 {
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40rem;
+  height: 45rem;
   overflow: auto;
 }
 .introduction h1,
@@ -180,7 +180,7 @@ h5 {
   margin: auto;
   border-bottom: dotted;
   border-bottom-color: #FECB00;
-  height: 500px;
+  height: 600px;
   font-size: 1em;
 }
 
@@ -288,8 +288,8 @@ h5 {
 .footer  {
   font-size: 1em;
   text-align: center;
-  padding-top: 12rem;
-  padding-bottom: 12rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
   background-color: #DC143C;
   width: 100%;
   color: #FFFFFF;

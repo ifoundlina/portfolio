@@ -40,6 +40,7 @@ ol, ul {
 /**
 * Start of Custom Styles
 */
+
 body {
   /*background-color: LightGray;*/
   font-family: 'Open Sans', sans-serif;
@@ -47,6 +48,7 @@ body {
   height:100%;
   width:100%;
 }
+
 
 p  {
   line-height: 140%;
@@ -94,22 +96,18 @@ h5 {
 .top-navigation {
   background-color: #000000;
   position: fixed;
-  width: 100%;
+  width: 110%;
   /*z-index: 9999;*/
 }
 
-
 .nav ul {
   float: right;
-	/*padding: 300px;*/
-	/*width: 80%;*/
 	display: -webkit-flex;
 	-webkit-flex-direction: flow;
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap: wrap;
 	/*position: fixed;*/
 }
-
 
 .top-navigation .links  a {
   float: right;
@@ -124,16 +122,21 @@ h5 {
 .top-navigation .links li {
   display: inline-block;
   float: right;
-  padding-right: 50px;
+  padding-left: 50px;
   /*margin-left: 1.563rem;*/
 }
+
+.top-navigation a:hover {
+color: #00e5e6;
+}
+
 
 
 /**
 * Introduction Section
 */
 .introduction {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/wyn.jpg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,6 +145,7 @@ h5 {
 }
 .introduction h1,
 .introduction h3 {
+  font: 'Roboto Condensed', sans-serif;
   color: white;
   text-align: center;
   text-shadow: 2px 2px 2px #202020;
@@ -207,15 +211,14 @@ h5 {
   margin: auto;
   border-bottom: dotted;
   border-bottom-color: #FECB00;
-  height: 650px;
+  height: 620px;
   font-size: 1em;
 }
 
 .left-box {
   width: 350px;
-  height: 370px;
   float: left;
-  border-right: dotted;
+  /*border-right: dotted;*/
   border-right-color: #FECB00;
 }
 
@@ -250,7 +253,7 @@ h5 {
 
 .title {
   width: 350px;
-  height: 118px;
+  height: 120px;
   float: left;
   border-right: dotted;
   border-right-color: #FECB00;
@@ -293,7 +296,10 @@ h5 {
   background-color: #DC143C;
   width: 100%;
   color: #FFFFFF;
+}
 
+.footer a:hover {
+color: #00e5e6;
 }
 
 .search:active:before, .clear:active:before {

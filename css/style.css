@@ -42,6 +42,7 @@ ol, ul {
 */
 
 body {
+  /*background-color: LightGray;*/
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   height:100%;
@@ -105,6 +106,7 @@ h5 {
 	-webkit-flex-direction: flow;
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap: wrap;
+	/*position: fixed;*/
 }
 
 .top-navigation .links  a {
@@ -127,6 +129,8 @@ h5 {
 .top-navigation a:hover {
 color: #00e5e6;
 }
+
+
 
 /**
 * Introduction Section
@@ -192,7 +196,7 @@ color: #00e5e6;
 }
 
 .about_me_text {
-  height: 350px;
+  height: 450px;
   width: 700px;
   float: left;
   padding-left: 80px;
@@ -266,6 +270,7 @@ color: #00e5e6;
 * Footer Section
 */
 
+
 .social > li {
   display: inline-block;
   color: #FFFFFF;
@@ -301,6 +306,7 @@ color: #00e5e6;
   color: white;
 }
 
+
 /**
 * Responsive Design
 */
@@ -321,6 +327,7 @@ color: #00e5e6;
     width: 60%;
   }
 }
+
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bounce {

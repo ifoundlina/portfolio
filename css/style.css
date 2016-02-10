@@ -140,7 +140,7 @@ color: #00e5e6;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45rem;
+  height: 55rem;
   overflow: auto;
 }
 .introduction h1,
@@ -153,7 +153,7 @@ color: #00e5e6;
 }
 .introduction h1 {
   font-size: 4rem;
-  margin-top: 18rem;
+  margin-top: 22rem;
   font-weight: 700;
 }
 .introduction h3 {
@@ -166,7 +166,7 @@ color: #00e5e6;
 */
 
 .about {
-  height: 18rem;
+  height: 500px;
 }
 
 .about_me h4 {
@@ -184,7 +184,8 @@ color: #00e5e6;
   margin: auto;
   border-bottom: dotted;
   border-bottom-color: #FECB00;
-  height: 600px;
+  height: 500px;
+  padding-bottom: 10rem;
   font-size: 1em;
 }
 
@@ -196,7 +197,7 @@ color: #00e5e6;
 }
 
 .about_me_text {
-  height: 450px;
+  height: 260px;
   width: 700px;
   float: left;
   padding-left: 80px;
@@ -207,11 +208,12 @@ color: #00e5e6;
 */
 .education {
   width: 960px;
-  padding-top: 9rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   margin: auto;
   border-bottom: dotted;
   border-bottom-color: #FECB00;
-  height: 620px;
+  height: 650px;
   font-size: 1em;
 }
 
@@ -240,9 +242,9 @@ color: #00e5e6;
 
 .experience {
   width: 960px;
-  padding-top: 6rem;
+  padding-top: 10rem;
   margin: auto;
-  height: 875px;
+  height: 950px;
 }
 .job-box {
   width: 960px;
@@ -306,10 +308,6 @@ color: #00e5e6;
   color: white;
 }
 
-
-/**
-* Responsive Design
-*/
 @media (min-width: 48rem) {
   .content
 
